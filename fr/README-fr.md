@@ -35,8 +35,8 @@ Pour plus d’informations sur ce langage :
 * https://graphql.org/
 
 # 
-1. [Documentation de l'API du portail des collections](README.md#documentation-de-lapi-du-portail-des-collections)
-2. [Se connecter à l'API](fr/se-connecter.md#se-connecter-à-l'API)
-3. [Récupérer des données](fr/recuperer-donnees.md#récupérer-des-données)
-4. [Structure des données](fr/structure-donnees.md#structures-des-données)
+1. [Documentation de l'API du portail des collections](README-fr.md#documentation-de-lapi-du-portail-des-collections)
+2. [Se connecter à l'API](se-connecter.md#se-connecter-à-l'API)
+3. [Récupérer des données](recuperer-donnees.md#récupérer-des-données)
+4. [Structure des données](structure-donnees.md#structures-des-données)
 
