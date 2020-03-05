@@ -64,7 +64,7 @@ Les différentes étapes dans la construction de votre requête :
 * Définir les champs imbriqués jusqu’à ce que tous les champs renvoient des scalaires.
 
 Exemple avec la requête ci-dessous :
-```php
+```graphql
 {
   nodeById(id: "226737") {
     entityCreated,
@@ -100,7 +100,7 @@ Exemple avec la requête ci-dessous :
 « fieldOeuvreThemeRepresente > entity > name » => les champs imbriqués jusqu’à obtenir une valeur
 
 Cela donnerait un résultat similaire à :
-```php
+```graphql
 {
   "data": {
     "nodeById": {

@@ -162,7 +162,7 @@ Les objets "personnes" peuvent être récupérés au travers des oeuvres, il s'a
 Les images disponibles pour les utilisateurs de l'API publique sont les images libres de droit et les images au petit format des oeuvres (vignette)
 
 voici ce qu'il faut ajouter à la requête pour la recuperation de la vignette :
-```php
+```graphql
 fieldVisuelsPrincipals {
   entity {
     vignette
