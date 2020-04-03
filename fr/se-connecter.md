@@ -44,7 +44,8 @@ L'appel est réalisé sur le endpoint http://apicollections.parismusees.paris.fr
     * ~~auth-token : le token généré sur le compte utilisateur.~~ (déprécié)
     * Authorization: Bearer $token (recommandé)
 * 1 paramètre post de la requête :
-    * query : la requête graphql. .(voir chapitre 4.2 – Construire une requête)
+    * query : la requête graphql. .(voir [ici](recuperer-donnees.md#construire-une-requête))
+
 
 Le token généré sur un compte utilisateur du site de l'API s'utilise dans le header auth-token de la requête. <br> 
 Lorsque le paramètre auth-token est passé à la requête, les droits du compte utilisateur lié à ce token sont appliqués.

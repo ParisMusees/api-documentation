@@ -94,9 +94,11 @@ Exemple avec la requête ci-dessous :
 ```
 « nodeById » => le type de requête pour récupérer un objet par son identifiant<br>
 « id : » => l’argument qui permet de spécifier l’ID à récupérer<br>
-« entityCreated », « entityBundle » => les champs communs à remonter. Ces champs sont disponibles pour tous les objets d'entité.<br>
+« entityCreated », 
+« entityBundle » => les champs communs à remonter. Ces champs sont disponibles pour tous les objets d'entité.<br>
 « … on NodeOeuvre » => le fragment pour définir spécifiquement l’objet NodeOeuvre. nodebyId peut renvoyer n'importe quel nœud, pas seulement Oeuvre, nous devons donc envelopper les champs spécifiques dans un fragment GraphQL.<br>
-« title », « absolutePath », « fieldOeuvreThemeRepresente » => les champs spécifiques à l’objet NodeOeuvre. Ce sont des champs qui ont été ajouté au bundle oeuvre. Ils sont uniquement disponible dans le type NodeOeuvre.<br>
+« title », « absolutePath », <br>
+« fieldOeuvreThemeRepresente » => les champs spécifiques à l’objet NodeOeuvre. Ce sont des champs qui ont été ajouté au bundle oeuvre. Ils sont uniquement disponible dans le type NodeOeuvre.<br>
 « fieldOeuvreThemeRepresente > entity > name » => les champs imbriqués jusqu’à obtenir une valeur
 
 Cela donnerait un résultat similaire à :
