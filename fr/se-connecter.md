@@ -1,6 +1,6 @@
 # Se connecter à l'API
 
-En creant votre compte, vous etes identifié en tant qu'utilisateur de l'API publique
+En créant votre compte, vous êtes identifié en tant qu'utilisateur de l'API publique
 
 ## S'inscrire sur l'API
 
@@ -17,7 +17,7 @@ Pour créer un compte :
 1. survoler le bouton "Connexion" et cliquer sur le bouton "Créer un nouveau compte".
 1. renseigner les informations pour votre compte et valider en cliquant sur le bouton "Créer un nouveau compte".
 1. un email est envoyé à l'adresse indiquée dans votre compte.
-1. cliquer sur le lien dans l'email reçu pour vous connecter à votre compte et renseigner les informations complémentaires (mot de passe, nom, prenom).
+1. cliquer sur le lien dans l'email reçu pour vous connecter à votre compte et renseigner les informations complémentaires (mot de passe, nom, prénom).
 
 ### Se connecter
 
@@ -100,13 +100,13 @@ return json_decode($response);
 Si vous utilisez l'API publique, il y a un quota de 1000 requêtes par jour à ne pas dépasser, vous êtes également limité à 5 tokens pour 5 applications distinctes. <br>
 Si votre projet nécessite d'effectuer plus de requêtes ou d'exploiter d'autres données disponibles dans l'API privée, nous vous invitons à demander une mise à jour de votre compte en utilisant le formulaire de contact http://parismusees.paris.fr/fr/contact
 
-### Récuperation de données
+### Récupération de données
 Le résultat retourné est au format JSON.
 
 L'un des grands avantages de GraphQL réside dans le caractère intuitif de la syntaxe de la requête et des réponses correspondantes. La réponse aura le même format que la requête spécifiée, avec les valeurs correspondantes.
 
 ## API Privée
-Si vous souhaitez effectuer un plus grand nombre de requete ou utiliser les données des oeuvres qui ne sont pas libres de droit, veuillez contacter le service numérique des musées de la ville de Paris : http://www.parismusees.paris.fr/fr/contact
+Si vous souhaitez effectuer un plus grand nombre de requêtes ou utiliser les données des oeuvres qui ne sont pas libres de droit, veuillez contacter le service numérique des musées de la ville de Paris : http://www.parismusees.paris.fr/fr/contact
 
 # 
 1. [Documentation de l'API du portail des collections](README-fr.md#documentation-de-lapi-du-portail-des-collections)

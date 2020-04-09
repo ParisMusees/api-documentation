@@ -1,6 +1,6 @@
 # Récupérer des données
 
-Récuperer les données dont vous avez besoin pour vos projet grâce à l'API,  le résultat retourné est au format JSON.
+Récupérer les données dont vous avez besoin pour vos projets grâce à l'API, le résultat retourné est au format JSON.
 
 L'un des grands avantages de GraphQL réside dans le caractère intuitif de la syntaxe de la requête et des réponses correspondantes. La réponse aura le même format que la requête spécifiée, avec les valeurs correspondantes.
 
@@ -47,13 +47,13 @@ Toutes les opérations GraphQL doivent spécifier leurs sélections jusqu'à des
 
 Les différentes étapes dans la construction de votre requête :
 
-* Définir le type de requêt, ex:
+* Définir le type de requête, ex :
     * nodeById
     * nodeQuery
     * taxonomyTermQuery
-    * etc... <br>
-    La liste exhaustive est disponible dans la doc de l’exporer (http://apicollections.parismusees.paris.fr/explorer)
-    Le requête peut s’accompagner d’argument, qui permettront de filter les résultats, ex pour la requête nodeQuery :
+    * etc <br>
+    La liste exhaustive est disponible dans la doc de l’explorer (http://apicollections.parismusees.paris.fr/explorer)
+    La requête peut s’accompagner d’argument, qui permettront de filter les résultats, ex pour la requête nodeQuery :
     * filter
     * sort
     * offset
@@ -98,7 +98,7 @@ Exemple avec la requête ci-dessous :
 « entityBundle » => les champs communs à remonter. Ces champs sont disponibles pour tous les objets d'entité.<br>
 « … on NodeOeuvre » => le fragment pour définir spécifiquement l’objet NodeOeuvre. nodebyId peut renvoyer n'importe quel nœud, pas seulement Oeuvre, nous devons donc envelopper les champs spécifiques dans un fragment GraphQL.<br>
 « title », « absolutePath », <br>
-« fieldOeuvreThemeRepresente » => les champs spécifiques à l’objet NodeOeuvre. Ce sont des champs qui ont été ajouté au bundle oeuvre. Ils sont uniquement disponible dans le type NodeOeuvre.<br>
+« fieldOeuvreThemeRepresente » => les champs spécifiques à l’objet NodeOeuvre. Ce sont des champs qui ont été ajouté au bundle oeuvre. Ils sont uniquement disponibles dans le type NodeOeuvre.<br>
 « fieldOeuvreThemeRepresente > entity > name » => les champs imbriqués jusqu’à obtenir une valeur
 
 Cela donnerait un résultat similaire à :
@@ -147,7 +147,7 @@ Il est possible d'interroger différentes entités Drupal, et nous allons voir c
 ## Autres Ressources
 Pour plus d'information sur graphql vous pouvez consulter la documentation officielle sur https://graphql.org/
 
-## L'outil de test explorer et documentation autogénérée
+## L'outil de test explorer et documentation auto générée
 L'explorer, disponible à cette adresse : http://apicollections.parismusees.paris.fr/explorer, permet avant tout de tester vos requêtes avant leur implémentation et ainsi éviter de dépasser le quota avec des requêtes erronées.
 
 La structure des données est également disponible via le schéma GraphQL dans la colonne de droite « Documentation explorer » (ouvrir le panneau « Docs »)
@@ -160,9 +160,9 @@ Les conventions de nommage de GraphQL sont les suivantes :
 * Les types d'entités et les ensembles utilisent le format camelCase avec la première lettre en majuscule. Taxonomy_term devient alors TaxonomyTerm.
 
 ### Requêtes d'exemple
-Sur la page de l'explorer nous avons ajouté quelque requêtes d'exemples disponibles en cliquant sur les boutons de la partie haute de la page.
+Sur la page de l'explorer nous avons ajouté quelques requêtes d'exemples disponibles en cliquant sur les boutons de la partie haute de la page.
 
-Ces exemples proposent des requêtes pour recuperer des oeuvres d'un auteur, des liste d'oeuvres par musées etc...
+Ces exemples proposent des requêtes pour récupérer des oeuvres d'un auteur, des listes d'oeuvres par musées, etc.
 
 #
 1. [Documentation de l'API du portail des collections](README-fr.md#documentation-de-lapi-du-portail-des-collections)

@@ -1,6 +1,6 @@
 # Documentation de l'API du portail des collections
 
-Une API (abréviation de Application Programming Interface ou Interface de programmation en français) est une manière pour un logiciel, un service web ou une base de données de communiquer avec d’autres éléments semblables. Elle permet de créer des relations et d’échanger des données entre différents types d’éléments. On pourrait ainsi la représenter comme un maillon permettant de relier deux chaînes. Ici, l’API permet à un utilisateur tiers de récupérer une partie des données des collections de Paris Musées sous la forme de fichiers au format JSON.
+Une API (abréviation d'Application Programming Interface ou Interface de programmation en français) est une manière pour un logiciel, un service web ou une base de données de communiquer avec d’autres éléments semblables. Elle permet de créer des relations et d’échanger des données entre différents types d’éléments. On pourrait ainsi la représenter comme un maillon permettant de relier deux chaînes. Ici, l’API permet à un utilisateur tiers de récupérer une partie des données des collections de Paris Musées sous la forme de fichiers au format JSON.
 
 
 ## L’Établissement Public Paris Musées
@@ -17,7 +17,7 @@ Le site Paris Musées : http://www.parismusees.paris.fr/fr
 
 ### Le portail des collections
 
-Au-delà de la présentation physique des œuvres qui fait l’objet d’un renouvellement des parcours muséographiques, Paris Musées a la volonté de présenter en ligne un contenu enrichi. Les internautes ont ainsi accès à un ensemble de contenus numériques d’une richesse incomparable, plus de 280 000 notices d’œuvres, ressources bibliographiques et archives, allant de l’archéologie à l’Art contemporain. La plateforme, qui donne accès aussi bien aux chefs d’œuvre exposés en salles qu’aux œuvres rarement montrées du fait de leur fragilité (dessins, photographies, estampes et textiles), continuera à s’enrichir avec un projet de 100 000 notices publiées par an et deux autres phases d’évolution techniques et fonctionnelles qui permettront plus d’interactivité.
+Au-delà de la présentation physique des œuvres qui fait l’objet d’un renouvellement des parcours muséographiques, Paris Musées a la volonté de présenter en ligne un contenu enrichi. Les internautes ont ainsi accès à un ensemble de contenus numériques d’une richesse incomparable, plus de 280 000 notices d’œuvres, ressources bibliographiques et archives, allant de l’archéologie à l’Art contemporain. La plateforme, qui donne accès aussi bien aux chefs-d’œuvre exposés en salles qu’aux œuvres rarement montrées du fait de leur fragilité (dessins, photographies, estampes et textiles), continuera à s’enrichir avec un projet de 100 000 notices publiées par an et deux autres phases d’évolution techniques et fonctionnelles qui permettront plus d’interactivité.
 
 Le portail des collections : http://parismuseescollections.paris.fr/fr
 
