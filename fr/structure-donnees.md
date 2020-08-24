@@ -37,7 +37,7 @@ il est possible de récupérer une oeuvre directement depuis son id en mentionna
 | fieldAdresse { <br> &nbsp; countryCode <br> &nbsp; locality <br>&nbsp; postalCode <br>&nbsp; addressLine1 <br>&nbsp; addressLine2 <br> } | adresse postale du musée | texte | "fieldAdresse": { <br> &nbsp; &nbsp; "countryCode": "FR", <br> &nbsp; &nbsp; "locality": "Paris", <br> &nbsp; &nbsp; "postalCode": "75016", <br> &nbsp; &nbsp; "addressLine1": "47, rue Raynouard", <br> &nbsp; &nbsp; "addressLine2": "" <br>} |
 | fieldGeolocation {<br> &nbsp; lat<br> &nbsp; lng<br> &nbsp; latSin<br> &nbsp; latCos<br> &nbsp; lngRad<br> &nbsp; data<br>} | informations de géolocalisation | entier | "fieldGeolocation": {<br> &nbsp; &nbsp; "lat": 48.8555508,<br> &nbsp; &nbsp; "lng": 2.2795915, <br> &nbsp; &nbsp; "latSin": 0.75305318380701,<br> &nbsp; &nbsp; "latCos": 0.6579596510107,<br> &nbsp; &nbsp; "lngRad": 0.039786377275476,<br> &nbsp; &nbsp; "data": [] <br>} |
 
-## Personnes (Auteur, Donnateur...)
+## Personnes (Auteur, Donateur...)
 Les objets "personnes" peuvent être récupérés au travers des oeuvres, il s'agit de terme de la taxonomie "Personne institution Personnage" dont le nom machine est "pip", ces champs sont donc récupérables en utilisant ... on TaxonomyTermPip
 
 | label | description | type | exemple |
@@ -54,7 +54,7 @@ Les images disponibles pour les utilisateurs de l'API publique sont les images l
 
 voici ce qu'il faut ajouter à la requête pour la recuperation de la vignette :
 ```graphql
-fieldVisuelsPrincipals {
+fieldVisuels {
   entity {
     vignette
   }
