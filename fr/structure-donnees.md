@@ -52,7 +52,9 @@ Les objets "personnes" peuvent être récupérés au travers des oeuvres, il s'a
 ## Images et autres media
 Les images disponibles pour les utilisateurs de l'API publique sont les images libres de droit et les images au petit format des oeuvres (vignette)
 
-voici ce qu'il faut ajouter à la requête pour la recuperation de la vignette :
+NOTE : Le champ fieldVisuelsPrincipals est déprécié.
+
+Voici ce qu'il faut ajouter à la requête pour la recuperation de la vignette :
 ```graphql
 fieldVisuels {
   entity {
