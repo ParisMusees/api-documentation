@@ -85,7 +85,7 @@ $headers = [
   'Authorization: Bearer 18d3127b-5c77-4b03-9049-2b3ea85bb74b',
 ];
 
-$chObj = curl_init(http://apicollections.parismusees.paris.fr/graphql');
+$chObj = curl_init('http://apicollections.parismusees.paris.fr/graphql');
 curl_setopt($chObj, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($chObj, CURLOPT_POST, TRUE);
 curl_setopt($chObj, CURLOPT_POSTFIELDS, $data_string);
